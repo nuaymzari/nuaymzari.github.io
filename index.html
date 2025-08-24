@@ -27,11 +27,12 @@
                 padding: 1rem;
             }
         }
-        @media all and (display-mode: standalone) {
-            #install-button {
-            display: none;
-            }
+        @media (display-mode: standalone) {
+            #installButton {
+            display: none; /* or flex, grid, etc. */
         }
+}
+
 
     </style>
     <!-- PWA Manifest -->
@@ -39,7 +40,7 @@
 </head>
 <body class="bg-gray-100 min-h-screen flex items-center justify-center p-4">
 
-    <button id="installButton" class="fixed top-0 left-0 right-0 text-black p-4 border border-transparent rounded-md shadow-sm text-lg font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition duration-200 ease-in-out" >Install App</button>
+    <button id="installButton" class="fixed w-full top-0 text-black py-3 px-4 border border-transparent shadow-sm text-lg font-medium bg-slate-300 hover:bg-slate-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-500 transition duration-200 ease-in-out" >Install App</button>
 
     <div class="container bg-white p-8 rounded-lg shadow-xl border border-gray-200">
         <h1 class="text-3xl font-bold text-gray-800 mb-6 text-center">PWA Data Entry Form</h1>
