@@ -17,5 +17,18 @@
             "sizes": "512x512",
             "type": "image/png"
         }
+    ],
+    "screenshots": [
+        {
+            "src": "https://placehold.co/512x512/007BFF/FFFFFF?text=PWA",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+          "src": "https://placehold.co/1024x512/007BFF/FFFFFF?text=PWA",
+          "sizes": "512x512",
+          "type": "image/png",
+          "form_factor": "wide"
+        }
     ]
 }
